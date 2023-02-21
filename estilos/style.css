@@ -13,16 +13,16 @@ Paleta de cores
   box-sizing: border-box;
 }
 
-body, html {
+body {
   background-color: #5f2c82;
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  width: 100%;
 }
 
 main {
   position: relative;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 section#login {
@@ -54,4 +54,13 @@ section#login > div#imagem {
 section#login > div#formulario {
   display: block;
   padding: 10px;
+}
+
+div#formulario > h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+div#formulario > p {
+  font-size: 0.8em;
 }
